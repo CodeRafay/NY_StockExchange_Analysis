@@ -35,6 +35,19 @@ Data sourced from [Kaggle NYSE Dataset](https://www.kaggle.com/datasets/dgawlik/
 - `fundamentals.csv`: SEC 10K metrics (2012-2016)
 
 ## Installation
+
 1. Clone repository:
    ```bash
    git clone https://github.com/yourusername/nyse-stock-analysis.git
+   cd nyse-stock-analysis
+   ```
+
+2. Install required R packages:
+   ```r
+   install.packages(c("shiny", "shinydashboard", "dplyr", "ggplot2", "plotly", "performance"))
+   ```
+
+3. Run the app:
+   ```r
+   shiny::runApp("app.R")
+   ```
